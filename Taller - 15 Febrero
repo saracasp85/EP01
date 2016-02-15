@@ -1,0 +1,99 @@
+Area del circulo
+var a =2;
+
+var b=3.14;
+
+if (a>0) 
+{
+var r =(a*b); 
+console.log(r+" cm2 es el area del circulo")
+}
+
+else {
+console.log("no se puede calcular")
+}
+
+area del cuadrado
+
+var c=2;
+
+var d=3;
+
+if (c>0 && d>0) 
+{
+var rc =(c*d); 
+console.log(rc+" cm2 es el area del cuadrado")
+}
+
+else {
+console.log("no se puede calcular")
+}
+
+area de triangulo
+base y altura
+A= 1/2 (b*h)
+area = 1/2 (base x altura)= cm2
+
+var b=2;
+
+var h=3;
+
+
+if (b>0 && h>0) 
+
+{
+var rc =(1/2*(b*h)); 
+
+console.log(rc+" cm2 es el area del triangulo")
+}
+
+
+else {
+console.log("no se puede calcular")
+}
+
+
+semiperimetro
+s=(a+b+c)/2
+area= raiz (s(s-a)(s-b)(s-c))
+se da en cm2
+
+
+- string numero de vocales
+
+var vocales = "murcielagote";
+myArray = var_split($vocales);
+myArray
+myArray[m,u,r,c,i,e,l,a,g,o,t,e]
+myArray.lenght
+
+var vocales = "murcielagote";
+var c=0;
+for (var i=o; i<vocales.lenght();i++);
+
+if((vocales.charAt(i)=='a',
+
+var v="murcielagote";
+var l=v.length;
+var c=0;
+
+for (var i=0; i < l;i++) 
+{
+if((i=="a"))
+{
+c++;
+}
+}
+
+- string numero de consonantes
+- string numero - diga si es capicua o no (minimo 4 numeros)
+
+var v = "murcielagote";
+var c=0;
+for (var i=0; i < v.split();i++) 
+{
+if((vocales.charAt(i)=='a',vocales.charAt(i)=='e'))
+{
+c++;
+}
+}
